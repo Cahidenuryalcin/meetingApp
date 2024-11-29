@@ -7,6 +7,10 @@ builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
 
+app.UseStaticFiles();
+
+app.UseRouting();
+
 // app.MapDefaultControllerRoute();
 // {controller}/{action}/{id?} şemasını kullandık
 // ya da bu şekilde

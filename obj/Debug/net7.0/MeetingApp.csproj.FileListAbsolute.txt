@@ -25,3 +25,6 @@ C:\Users\User\OneDrive\Masaüstü\aspnetcore_dersleri\MeetingApp\obj\Debug\net7.
 C:\Users\User\OneDrive\Masaüstü\aspnetcore_dersleri\MeetingApp\obj\Debug\net7.0\ref\MeetingApp.dll
 C:\Users\User\OneDrive\Masaüstü\aspnetcore_dersleri\MeetingApp\obj\Debug\net7.0\MeetingApp.RazorAssemblyInfo.cache
 C:\Users\User\OneDrive\Masaüstü\aspnetcore_dersleri\MeetingApp\obj\Debug\net7.0\MeetingApp.RazorAssemblyInfo.cs
+C:\Users\User\OneDrive\Masaüstü\aspnetcore_dersleri\MeetingApp\obj\Debug\net7.0\MeetingApp.sourcelink.json
+C:\Users\User\OneDrive\Masaüstü\aspnetcore_dersleri\MeetingApp\bin\Debug\net7.0\libman.json
+C:\Users\User\OneDrive\Masaüstü\aspnetcore_dersleri\MeetingApp\bin\Debug\net7.0\MeetingApp.staticwebassets.runtime.json
