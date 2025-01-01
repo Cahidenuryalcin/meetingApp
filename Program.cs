@@ -2,8 +2,8 @@ using Microsoft.Extensions.FileSystemGlobbing.Internal.Patterns;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// 1 mvc şablonunu projeye tanıttık
 builder.Services.AddControllersWithViews(); 
-// mvc şablonunu projeye tanıttık
 
 var app = builder.Build();
 
