@@ -11,14 +11,16 @@ namespace MeetingApp.Controllers
             // ViewBag.UserName="Cahide";
 
              ViewData["Selamlama"]=saat > 12 ? "İyi günler":"Günaydın";
-            ViewData["UserName"]="Cahide";
+            // ViewData["UserName"]="Cahide";
             // model kalıbına girmeyen bir içeriği ViewData/ViewBag ile sayfaya gönderebilirsin.
+
+            int UserCount= Repository.Users.Where(info=>info.WillAttend==true).Count();
 
             var meetingInfo= new MeetingInfo(){
                 Id=1,
                 Location="İstanbul, Abc Kongre Merkezi",
                 Date= new DateTime(2024,01,20,20,0,0),
-                NumberOfPeople=100
+                NumberOfPeople=UserCount,
             };
             return View(meetingInfo);
         }
